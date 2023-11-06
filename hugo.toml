@@ -1,0 +1,45 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = '打工日记'
+
+theme = 'archie'
+
+paginate = 3 # articles per page
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+
+[params]
+mode = "toggle" # color-mode → light,dark,toggle or auto
+useCDN = false # don't use CDNs for fonts and icons, instead serve them locally.
+subtitle = "间歇性废物"
+mathjax = true # enable MathJax support
+katex = true # enable KaTeX support
+
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/lgc523"
+
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
