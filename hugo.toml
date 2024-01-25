@@ -1,10 +1,10 @@
-baseURL = 'https://example.org/'
+baseURL = 'http://localhost:1313'
 languageCode = 'en-us'
 title = '打工日记'
 
 theme = 'archie'
 
-paginate = 3 # articles per page
+paginate = 5 # articles per page
 pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
@@ -21,7 +21,7 @@ katex = true # enable KaTeX support
 [[params.social]]
 name = "GitHub"
 icon = "github"
-url = "https://github.com/lgc523"
+url = "https://github.com/spider2024"
 
 
 [[menu.main]]
@@ -30,7 +30,7 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "All posts"
+name = "All"
 url = "/posts"
 weight = 2
 

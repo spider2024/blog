@@ -1,2 +1,5 @@
-.idea
-.DS_Store/
+.idea/
+.DS_Store
+.vscode/
+.hugo_build.lock
+static/
